@@ -41,7 +41,7 @@
     flex-direction: column;
     
     div {
-      width: 5px;
+      width: 50px;
       height: 5px;
       background: transparent;
       border-radius: 50%;
@@ -52,6 +52,7 @@
       color: var(--gray-color);
       text-decoration: none;
       text-transform: uppercase;
+      font-size: 19px;
       font-weight: 500;
       transition: all 0.3s ease-in-out;
 
@@ -87,6 +88,7 @@
     }
   }
 
+
   @media screen and (max-width: 900px) {
     display: none; // Hide icons on small screens
   }
@@ -108,36 +110,6 @@
 
     &:hover {
       color: var(--secondary-color);
-    }
-  }
-
-  button {
-    background-color: var(--primary-color);
-    border: none;
-    color: var(--white-color);
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease-in-out;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    a {
-      color: inherit; // Inherit color from the button
-      text-decoration: none; // Remove underline
-      display: block; // Ensure the link takes up the full button area
-      width: 100%; // Make link cover entire button
-      height: 100%; // Make link cover entire button
-      text-align: center; // Center text inside link
-      line-height: 1.5; // Adjust line-height if needed
-    }
-
-    &:hover {
-      background-color: var(--secondary-color);
     }
   }
 
