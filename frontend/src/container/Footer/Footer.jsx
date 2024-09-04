@@ -24,6 +24,7 @@ const Footer = () => {
     const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
     const userID = process.env.REACT_APP_EMAILJS_USER_ID;
 
+
     const templateParams = {
       from_name: name,
       from_email: email,
